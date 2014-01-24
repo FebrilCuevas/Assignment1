@@ -6,7 +6,7 @@
 - http://www.phpmyadmin.net
 -
 - Host: localhost
-- Generation Time: Jan 24, 2014 at 06:20 PM
+- Generation Time: Jan 24, 2014 at 06:35 PM
 - Server version: 5.5.33
 - PHP Version: 5.5.3
 -->
@@ -17,6 +17,17 @@
     -->
     <pma:structure_schemas>
         <pma:database name="project1" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="portfolios">
+                CREATE TABLE `portfolios` (
+                  `id` int(32) NOT NULL AUTO_INCREMENT,
+                  `splash_img` varchar(500) NOT NULL,
+                  `images` varchar(500) NOT NULL,
+                  `title` varchar(500) NOT NULL,
+                  `description` varchar(500) NOT NULL,
+                  `collaborators` varchar(500) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+            </pma:table>
             <pma:table name="users">
                 CREATE TABLE `users` (
                   `id` int(32) NOT NULL AUTO_INCREMENT,
@@ -33,6 +44,7 @@
     - Database: 'project1'
     -->
     <database name="project1">
+        <!-- Table portfolios -->
         <!-- Table users -->
     </database>
 </pma_xml_export>
