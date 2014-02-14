@@ -1,8 +1,7 @@
 <?php
-$con=mysqli_connect("localhost", "root", "root", "project");
+$con = mysqli_connect("localhost", "root", "root", "assignmentone");
 
 if(mysqli_connect_errno()){
-	//failed to connect
-	echo "failed to connect".mysqli_connect_error();	
+	echo "Failed to connect. ".mysqli_connect_error();
 }
 ?>
