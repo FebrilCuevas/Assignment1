@@ -1,25 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-<title>Project 1</title>
+<meta charset="UTF-8"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<title>Assignment1</title>
 </head>
-<script>
-$(document).ready(function(){
-	$.get("server/user_view.php", {user:true}, function(data){
-		//do something with the data
-		//console.log(data);
-	});
-	
-	$.get("server/user_view.php", {user:true}, function(data){
-		//do something with the data
-		var names = $.parseJSON(data);
-		console.log(names);
-	});
-});
 
+
+<script>
+$(document).ready(function(e){
+	$("#register_but").click(function(e){
+
+		var username = $("#username").val();
+  var password = $("#password").val();
+  $.post("server/users_client.php", {username:username, password:password}, function(data){
+	  console.log(data);
+ });
+       $.get("server/users_client.php", {user:true , user_id:true}, function(data){
+	         var j_data = $.parseJSON(data);
+	         console.log(j_data);
+
+       });
+  });
+
+
+
+});
 </script>
+
 <body>
+Username
+<input type='text' id='username' />
+Password
+<input type='text' id='password' />
+
+<input type='button' value='Register' id='register_but' />
 </body>
 </html>
