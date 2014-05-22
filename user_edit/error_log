@@ -1,0 +1,37 @@
+[22-May-2014 06:44:50 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 08:01:30 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 08:04:37 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 08:20:41 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 08:52:29 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 08:52:46 UTC] PHP Warning:  include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/febrilcu/public_html/seagull/db/addUser.php on line 13
+[22-May-2014 08:52:46 UTC] PHP Warning:  include(http://febrilcuevas.com/seagull/title_bar.php): failed to open stream: no suitable wrapper could be found in /home/febrilcu/public_html/seagull/db/addUser.php on line 13
+[22-May-2014 08:52:46 UTC] PHP Warning:  include(): Failed opening 'http://febrilcuevas.com/seagull/title_bar.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/febrilcu/public_html/seagull/db/addUser.php on line 13
+[22-May-2014 08:52:46 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, null given in /home/febrilcu/public_html/seagull/user_edit/reg_delete.php on line 7
+[22-May-2014 08:55:29 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 09:01:49 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 09:01:53 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 09:02:38 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 09:02:40 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 09:02:43 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 09:03:17 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 09:04:30 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 09:04:50 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 09:08:51 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 09:09:15 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 09:15:51 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 09:16:28 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 09:16:52 UTC] PHP Warning:  include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 27
+[22-May-2014 09:16:52 UTC] PHP Warning:  include(http://febrilcuevas.com/seagull/connect.php): failed to open stream: no suitable wrapper could be found in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 27
+[22-May-2014 09:16:52 UTC] PHP Warning:  include(): Failed opening 'http://febrilcuevas.com/seagull/connect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 27
+[22-May-2014 09:16:52 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 09:16:55 UTC] PHP Warning:  include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 27
+[22-May-2014 09:16:55 UTC] PHP Warning:  include(http://febrilcuevas.com/seagull/connect.php): failed to open stream: no suitable wrapper could be found in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 27
+[22-May-2014 09:16:55 UTC] PHP Warning:  include(): Failed opening 'http://febrilcuevas.com/seagull/connect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 27
+[22-May-2014 09:16:55 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 09:17:20 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 09:17:28 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 09:17:41 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/febrilcu/public_html/seagull/user_edit/reg_userdata.php on line 61
+[22-May-2014 10:17:07 UTC] PHP Warning:  include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/febrilcu/public_html/seagull/db/addUser.php on line 13
+[22-May-2014 10:17:07 UTC] PHP Warning:  include(http://febrilcuevas.com/seagull/title_bar.php): failed to open stream: no suitable wrapper could be found in /home/febrilcu/public_html/seagull/db/addUser.php on line 13
+[22-May-2014 10:17:07 UTC] PHP Warning:  include(): Failed opening 'http://febrilcuevas.com/seagull/title_bar.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/febrilcu/public_html/seagull/db/addUser.php on line 13
+[22-May-2014 10:17:07 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, null given in /home/febrilcu/public_html/seagull/user_edit/reg_delete.php on line 7
